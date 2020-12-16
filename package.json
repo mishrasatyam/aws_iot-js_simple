@@ -1,0 +1,22 @@
+{
+  "name": "aws_iot_js_simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "aws-iot",
+    "aws-iot-js",
+    "aws-iot-js-sdk2"
+  ],
+  "author": "Satyam Mishra <satyam.mishra975@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "arraybuffertojson": "^1.0.3",
+    "aws-iot-device-sdk-v2": "^1.3.3"
+  }
+}
