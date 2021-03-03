@@ -16,8 +16,8 @@
   "author": "Satyam Mishra <satyam.mishra975@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "arraybuffertojson": "^1.0.3",
-    "aws-iot-device-sdk-v2": "^1.3.3"
+    "arraybuffertojson": "^1.0.5",
+    "aws-iot-device-sdk-v2": "^1.4.1"
   },
   "repository": {
     "type": "git",
