@@ -26,13 +26,3 @@ export async function publish(topic,connection,json_message){
     const json = JSON.stringify(json_message);
     connection.publish(topic, json, 1);
 }
-// import {create_connection,on_publish,publish} from 'aws_iot_js_simple'
-
-async function connect(){
-    const connection = await create_connection()
-    await connection.connect();
-    console.log("connected")
-    await connection.subscribe('sensor', 1, on_publish);
-    publish('sensor',connection,{'Temperature':23.5})
-}
-connect()
