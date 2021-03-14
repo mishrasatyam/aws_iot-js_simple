@@ -20,6 +20,7 @@ export async function create_connection(){
 export async function on_publish(topic, payload){
     let message = ArrayBufferToJson(payload)
     console.log(`Publish received on topic ${topic}`,message);
+    return message;
 }
 
 export async function publish(topic,connection,json_message){
